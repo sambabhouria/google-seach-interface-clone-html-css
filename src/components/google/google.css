@@ -93,3 +93,9 @@
     border: none;
     cursor: pointer;
   }
+
+  .header__right img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }

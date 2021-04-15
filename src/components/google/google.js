@@ -3,6 +3,7 @@ import classNames from 'classnames'
 import 'material-design-icons/iconfont/material-icons.css';
 import './google.css';
 
+import profileImg from  '../../assets/images/samba.jpg';
 
 export const Google = () => {
 
@@ -18,7 +19,11 @@ export const Google = () => {
         <a href="/">Gmail</a>
         <a href="/">Images</a>
         <span class="material-icons header__apps"> apps </span>
-        <span class="material-icons"> account_circle </span>
+        {/* <span class="material-icons"> account_circle </span> */}
+        <img
+            src={profileImg}
+            alt="Google Logo"
+        />
       </div>
     </div>
     {/* <!-- Header Ends --> */}
